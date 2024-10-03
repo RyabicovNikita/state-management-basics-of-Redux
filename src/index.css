@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root {
+	--disabled-color: #cfcfcf;
+	--error-color: #d40000;
+	--main-color: #cbc5a0;
+}
+#root {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	all: unset;
+}
+body {
+	color: var(--main-color);
+	margin: 0;
+	font-family: 'Permanent Marker', 'Arial', cursive;
+	font-size: 95px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.col-4 {
+	width: 33.333333333%;
+}
